@@ -1,7 +1,7 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Frase personalizada desde un formulario
       debug:
-        msg: "Hola amigos del BBVA !!! Somos full gitops V4.0"
+        var: "{{ frase }}"
 
