@@ -3,5 +3,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hola amigos del BBVA !!! Somos full gitops"
+        msg: "Hola amigos del BBVA !!! Somos full gitops V2.0"
 
