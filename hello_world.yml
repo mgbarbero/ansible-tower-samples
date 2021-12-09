@@ -3,5 +3,5 @@
   tasks:
     - name: Frase personalizada desde un formulario
       debug:
-        var: "{{ frase }}"
+        var: frase
 
